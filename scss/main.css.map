@@ -1,12 +1,14 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB;;AEFD,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;CACpB;;ACGD,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,IAAI;CAEhB;;ACRD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,2BAA2B;CAChD",
     "sources": [
         "main.scss",
         "_variables.scss",
         "blocks/_common.scss",
         "blocks/_header.scss",
-        "blocks/_container.scss"
+        "blocks/_container.scss",
+        "blocks/_products.scss",
+        "blocks/_people.scss"
     ],
     "names": [],
     "file": "main.css"
