@@ -1,0 +1,43 @@
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.teams_inner {
+    margin-left: 166px;
+    h2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: "Roboto";
+        color:#657085;
+        padding: 19px 0;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 48px;
+        color: #1c202b;
+        max-width: 800px;
+        padding: 20px 0;
+
+        span {
+            color:$color-primary;
+        }
+    }
+}
+.team_list {
+    display: flex;
+    padding: 37px 0;
+    align-items:center;
+
+    p {
+        max-width: 240px;
+        padding: 16px 0;
+
+        span {
+            color:$color-primary;
+            margin: 54px 0;
+        }
+    }
+}

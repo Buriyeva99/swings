@@ -1,0 +1,153 @@
+.blog_swingvy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 95px;
+}
+.blog_text {
+  p {
+    max-width: 278px;
+    color: $color-primary;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    @include font-text;
+    padding-top: 28px;
+  }
+
+  img {
+    margin-right: 16px;
+  }
+
+  h2 {
+    max-width: 326px;
+    padding: 0 0 47px 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: "Roboto";
+  }
+}
+
+.blog_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 180px;
+
+  .blog_list {
+    li {
+      list-style-type: none;
+      margin-bottom: 15px;
+      a {
+        text-decoration: none;
+        color: #1c202b;
+      }
+    }
+    .blog_slow a {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  h3 {
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $color-secondry;
+  }
+}
+.box-2 {
+  display: flex;
+  justify-content: center;
+}
+.blog_globus {
+  display: flex;
+  gap: 12px;
+}
+
+.blog_dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// .dropdown-list {
+//   position: relative;
+
+//   &_text {
+//     position: absolute;
+//     min-width: 150px;
+//     border: 1px solid transparent;
+//     padding: 10px;
+//     opacity: 0;
+//     transition: 0.5s ease;
+//     pointer-events: none;
+//     transform: translateX(-45px);
+//   }
+// }
+// .dropdown-list:hover .dropdown_text {
+//   opacity: 1;
+//   pointer-events: initial;
+// }
+
+.dropdown_text {
+  li {
+    list-style: none;
+    display: none;
+  }
+}
+.dropdown-list:hover {
+  .dropdown_text {
+    li {
+      display: block;
+      padding-left: 10px;
+      border:1px solid black;
+      
+    }
+  }
+}
+
+.dropdown-list {
+    li {
+        list-style-type: none;
+
+    }
+}
+
+.blog_contact {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  gap: 270px;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 15px;
+
+    a {
+      text-decoration: none;
+      color:#1C202B;
+      
+    }
+    h3 {
+      margin-bottom: 35px;
+    }
+  }
+
+  .blog_social {
+
+    h4 {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+
+.blog_mir {
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-start;
+  
+}
+
